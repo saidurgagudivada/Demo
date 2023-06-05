@@ -24,10 +24,5 @@ class ViewController: UIViewController {
     }
     
       
-//      @objc func scanBarTapped() {
-//            self.navigationController?.pushViewController(scannerViewController, animated: true)
-//        }
-//
-//
 }
 
