@@ -18,11 +18,16 @@ class ViewController: UIViewController {
             super.viewDidLoad()
         }
     
-    
      @IBAction func scanBarButtonTapped(_ sender: Any) {
          self.navigationController?.pushViewController(scannerViewController, animated: true)
     }
     
-      
+    //TODO - Needs to write how to present the barcode scanner here
+     let string = String?
+     string = "Count"
+   if let str = string {
+      print(str)
+   }
+   
 }
 
