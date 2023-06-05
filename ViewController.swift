@@ -9,6 +9,8 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController {
+    enum Directions :
+    case south, north, east, west
 
     @IBOutlet weak var webView: WKWebView!
     
@@ -23,5 +25,19 @@ class ViewController: UIViewController {
         webView.load(request)
     }
 
+    func checkout() {
+        var directions = Directions()
+        direction = .north
+        switch directions {
+            case .south:
+                 print(" Three river point at the end")
+            case .east:
+                print("Sun raises in the east")
+            case .north:
+                print("Himalayas are there")
+            case .west:
+              print("Sun sets in the west")
+    }
+     
 }
 
